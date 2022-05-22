@@ -2,7 +2,7 @@
 //Bibliotecas
 #include <stdio.h> // Biblioteca padrão do C
 #include <math.h> // Biblioteca que armazena funções matematicas
-#include <string.h>
+#include <string.h> // para manipulação de cadeias de caracteres e regiões de memória
 
 //Chamadas das funções
 int converterBin2Dec(long long valor_binario);
@@ -39,7 +39,7 @@ int main() {
 		}
 
 
-		//Opção  - Decimal -> Binário
+		//Opção 2 - Decimal -> Binário
 		else if (opc == '2') {
 			printf("Digite o numero decimal: ");
 			scanf("%d", &valor_decimal);
