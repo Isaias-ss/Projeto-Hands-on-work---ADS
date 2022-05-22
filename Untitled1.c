@@ -2,7 +2,7 @@
 //Bibliotecas
 #include <stdio.h> // Biblioteca padrão do C
 #include <math.h> // Biblioteca que armazena funções matematicas
-#include <string.h> // para manipulação de cadeias de caracteres e regiões de memória
+#include <string.h> // Para manipulação de cadeias de caracteres e regiões de memória
 
 //Chamadas das funções
 int converterBin2Dec(long long valor_binario);
